@@ -25,7 +25,7 @@ function NavTab(props) {
           <a
             href="#home"
             onClick={() => props.handlePageChange("Home")}
-            className="nav-item nav-link active text-pink"
+            className="nav-item nav-link text-pink text-link"
           >
             Home
           </a>
@@ -33,7 +33,7 @@ function NavTab(props) {
           <a
             href="#contact"
             onClick={() => props.handlePageChange("Contact")}
-            className="nav-item nav-link active text-pink"
+            className="nav-item nav-link text-pink text-link"
           >
             Contact
           </a>
@@ -41,7 +41,7 @@ function NavTab(props) {
           <a
             href="#portfolio"
             onClick={() => props.handlePageChange("Portfolio")}
-            className="nav-item nav-link active text-pink"
+            className="nav-item nav-link text-pink text-link"
           >
             Portfolio
           </a>

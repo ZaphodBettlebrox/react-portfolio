@@ -3,13 +3,23 @@ html {
   height: 100%;
   background: black;
 }
+.margin0 {
+  margin: 0 !important;
+}
 .text {
   color: #d5dcf1;
   font-family: "Permanent Marker", cursive;
   font-style: italic;
   font-size: 1.2vw;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  padding-bottom: 30vh;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+.text2 {
+  color: #d5dcf1;
+  font-family: "Permanent Marker", cursive;
+  font-style: italic;
+  font-size: 1.2vw;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  padding-bottom: 20vh;
 }
 .container-fluid,
 .row {
@@ -43,6 +53,26 @@ html {
   line-height: 200px;
   font-family: "Anton", sans-serif;
   margin: 0;
+}
+.tech-skills {
+  font-weight: 100;
+  font-size: 6vw;
+  background: linear-gradient(
+    #5d21e9 0%,
+    #6738e9 35%,
+    white 49%,
+    black 50%,
+    #630680 60%,
+    #eb6fe0 68%,
+    #ffb6f9 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 200px;
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  text-align: center;
+  z-index: 2;
 }
 
 .Aidan-Willett {
@@ -81,10 +111,17 @@ html {
 }
 
 .text-pink {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   font-family: "Permanent Marker", cursive;
   font-style: italic;
   color: #f800bc;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  margin: 0;
+}
+
+.text-link:hover {
+  color: #0096d1;
+  text-decoration: none;
 }
 
 .box {
@@ -98,8 +135,8 @@ html {
 }
 
 .bg {
-  background: url("../pictures/retrowave-background.jpg") no-repeat center center
-    fixed;
+  background: url("../pictures/retrowave-background.jpg") no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,19 +186,8 @@ html {
   font-size: 60%;
 }
 
-.contact-form {
-  font-family: "Permanent Marker", cursive;
- 
-}
-
-.send-button {
-  color: black;
-  margin: 5vh;
-}
-
-.contact-text {
-  color: #f800bc;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.contactrow {
+  margin-bottom: 6vh;
 }
 
 .button-color {
@@ -186,7 +212,8 @@ html {
 }
 
 .bg-portfolio {
-  background: url("../pictures/retrowave-grid.png") no-repeat center center fixed;
+  background: url("../pictures/retrowave-grid.png") no-repeat center center
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -215,13 +242,13 @@ html {
 .forms {
   margin: auto;
 }
-.contactbody{
+.contactbody {
   width: 100vw;
 }
-.contactbottom{
+.contactbottom {
   margin-bottom: 20vh;
 }
-.margin-bottom{
+.margin-bottom {
   margin-bottom: 20vh;
 }
 
@@ -229,10 +256,13 @@ html {
   .text {
     font-size: 2vh;
   }
+  .text2 {
+    font-size: 2vh;
+  }
   .portrate {
     display: none;
   }
-  .hidestuff{
+  .hidestuff {
     display: none;
   }
 }
@@ -255,19 +285,32 @@ html {
   .about-me {
     font-size: 10vw;
   }
-  
+  .tech-skills {
+    font-size: 10vw;
+  }
+
   .text {
     padding-left: 7vw;
     padding-right: 7vw;
     font-size: 2.3vw;
   }
+  .text2 {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    font-size: 2.3vw;
+  }
+
   .contact-form {
-   margin: 3%;
+    margin: 3%;
   }
 }
 
 @media only screen and (max-width: 470px) {
   .text {
+    padding-right: 9vw;
+    font-size: 2vh;
+  }
+  .text2 {
     padding-right: 9vw;
     font-size: 2vh;
   }

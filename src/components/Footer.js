@@ -15,7 +15,7 @@ function Footer() {
         <div class="line"></div>
         <div class="line2"></div>
 
-        <p class="navbar-brand copyright">Copyright @ Aidan Willett 2019</p>
+        <p class="navbar-brand copyright">Aidan Willett 2020</p>
       </nav>
   );
 }
