@@ -26,6 +26,11 @@ function NavTab(props) {
             href="#home"
             onClick={() => props.handlePageChange("Home")}
             className="nav-item nav-link text-pink text-link"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
             Home
           </a>
@@ -34,6 +39,11 @@ function NavTab(props) {
             href="#contact"
             onClick={() => props.handlePageChange("Contact")}
             className="nav-item nav-link text-pink text-link"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
             Contact
           </a>
@@ -42,6 +52,11 @@ function NavTab(props) {
             href="#portfolio"
             onClick={() => props.handlePageChange("Portfolio")}
             className="nav-item nav-link text-pink text-link"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
             Portfolio
           </a>

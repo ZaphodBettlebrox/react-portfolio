@@ -6,6 +6,9 @@ html {
 .margin0 {
   margin: 0 !important;
 }
+.padding0{
+  padding: 0 !important;
+}
 .text {
   color: #d5dcf1;
   font-family: "Permanent Marker", cursive;
@@ -115,12 +118,13 @@ html {
   font-family: "Permanent Marker", cursive;
   font-style: italic;
   color: #f800bc;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
   margin: 0;
 }
 
+
 .text-link:hover {
-  color: #0096d1;
+  color: #9900ff;
   text-decoration: none;
 }
 
@@ -203,7 +207,102 @@ html {
   width: 100%;
   height: 100%;
 }
+.portfolio-card{
+  background: rgb(0, 0, 0);
+  border-radius: 30px;
+  width: 34vw;
+  height: 36vw;
+  margin-bottom: 10vh;
+}
+.card-title{
+  margin-top: 2vh;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 2.5vw;
+  background: linear-gradient(
+    #5d21e9 0%,
+    #6738e9 35%,
+    white 49%,
+    black 50%,
+    #630680 60%,
+    #eb6fe0 68%,
+    #ffb6f9 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-image{
+  width: 30vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-button{
+  margin-top: 2vh;
+  font-size: 2vw;
+  font-family: "Permanent Marker", cursive;
+  font-style: italic;
+  color: #f800bc;
+  text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.px black;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-button:hover{
+ color: #860065;
+}
+.card-desc{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
+  width: 30vw;
+  background: #f800bc;
+  border: black 2px solid;
+  position: relative;
+  z-index: +1;
+  border-radius: 10px;
+  margin-top: -45vh;
+  padding: 2vw 1vw 1vw 1vw;
+
+  font-size: 1.2vw;
+  font-family: "Permanent Marker", cursive;
+  font-style: italic;
+  color: #000000;
+}
+.desc-close{
+  position: relative;
+  top: -3vh;
+  width: 5vw;
+}
+.deschide1{
+  display: none;
+}
+.buttonhide1{
+  display: block;
+}
+.deschide2{
+  display: none;
+}
+.buttonhide2{
+  display: block;
+}
+.deschide3{
+  display: none;
+}
+.buttonhide3{
+  display: block;
+}
+.portfolio-wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  width: 80vw;
+  margin: 0 auto;
+}
 .images {
   margin-left: 1vw;
   margin-right: 1vw;
@@ -246,10 +345,19 @@ html {
   width: 100vw;
 }
 .contactbottom {
-  margin-bottom: 20vh;
+  margin-bottom: 17vh;
 }
 .margin-bottom {
   margin-bottom: 20vh;
+}
+@media only screen and (max-width: 1400px) {
+  .card-desc{
+    margin-top: -170px;
+  }
+  .desc-close{
+    font-size: 16.8px;
+    padding-top: 1vh;
+  }
 }
 
 @media only screen and (max-width: 950px) {
@@ -266,6 +374,12 @@ html {
     display: none;
   }
 }
+@media only screen and (max-width: 900px) {
+  .card-desc{
+    font-size: 13px;
+  } 
+}
+
 @media only screen and (max-width: 767px) {
   .box {
     display: none;
@@ -303,8 +417,29 @@ html {
   .contact-form {
     margin: 3%;
   }
+  .desc-close{
+    padding-top: 2vh;
+  }
 }
+@media only screen and (max-width: 730px) {
 
+  .portfolio-card{
+    width: 249px;
+    height: 262px;
+  }
+  .card-image{
+    width: 219px;
+  }
+  .card-title{
+    font-size: 18px;
+  }
+  .card-button{
+    font-size: 14.6px;
+  }
+  .card-desc{
+  width: 219px;
+} 
+}
 @media only screen and (max-width: 470px) {
   .text {
     padding-right: 9vw;
@@ -313,5 +448,11 @@ html {
   .text2 {
     padding-right: 9vw;
     font-size: 2vh;
+  }
+  .portfolio-wrapper{
+    width: 90vw;
+  }
+  .text-pink{
+    font-size: 14.1px;
   }
 }

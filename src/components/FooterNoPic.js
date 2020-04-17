@@ -3,10 +3,10 @@ import React from "react";
 
 function FooterNoPic() {
   return (
-    <nav class="fixed-bottom footer text-center">
-    <div class="line"></div>
-    <div class="line2"></div>
-    <p class="navbar-brand copyright">Copyright @ Aidan Willett 2019</p>
+    <nav className="fixed-bottom footer text-center">
+    <div className="line"></div>
+    <div className="line2"></div>
+    <p className="navbar-brand copyright">Copyright @ Aidan Willett 2019</p>
   </nav>
   );
 }
