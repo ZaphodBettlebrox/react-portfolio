@@ -53,7 +53,7 @@ html {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 200px;
+  line-height: 150px;
   font-family: "Anton", sans-serif;
   margin: 0;
 }
@@ -71,7 +71,7 @@ html {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 200px;
+  line-height: 150px;
   font-family: "Anton", sans-serif;
   margin: 0;
   text-align: center;
@@ -145,8 +145,14 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
 
+  /* background-image: url("../pictures/retrowave-background.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed; */
+}
 .portrate {
   float: right;
   position: fixed;
@@ -194,6 +200,18 @@ html {
   margin-bottom: 6vh;
 }
 
+.contact-box-1, .contact-box-2{
+background: black;
+border-radius: 30px;
+width: 25vw;
+height: 49vh;
+position: absolute;
+left: 0;
+right: 0;
+top: -2vh;
+margin: auto;
+}
+
 .button-color {
   background: #00f8f2;
 }
@@ -211,8 +229,8 @@ html {
   background: rgb(0, 0, 0);
   border-radius: 30px;
   width: 34vw;
-  height: 36vw;
-  margin-bottom: 10vh;
+  height: 40vw;
+  margin-bottom: 20vh;
 }
 .card-title{
   margin-top: 2vh;
@@ -270,6 +288,12 @@ html {
   font-family: "Permanent Marker", cursive;
   font-style: italic;
   color: #000000;
+}
+.card-content{
+  margin-top: 2vh;
+  border-radius: 0 0 30px 30px;
+  background: black;
+  padding: 3vh;
 }
 .desc-close{
   position: relative;
@@ -348,7 +372,7 @@ html {
   margin-bottom: 17vh;
 }
 .margin-bottom {
-  margin-bottom: 20vh;
+  margin-bottom: 5vh;
 }
 @media only screen and (max-width: 1400px) {
   .card-desc{
@@ -413,19 +437,23 @@ html {
     padding-right: 7vw;
     font-size: 2.3vw;
   }
-
-  .contact-form {
-    margin: 3%;
-  }
+  
   .desc-close{
     padding-top: 2vh;
+  }
+  .contact-box-1, .contact-box-2{
+    height: 58vh;
+    width: 31vw;
+  }
+  .portfolio-card{
+    margin-bottom: 45vh;
   }
 }
 @media only screen and (max-width: 730px) {
 
   .portfolio-card{
     width: 249px;
-    height: 262px;
+    height: 290px;
   }
   .card-image{
     width: 219px;
@@ -440,7 +468,16 @@ html {
   width: 219px;
 } 
 }
+@media only screen and (max-width: 630px) {
+  .portfolio-card{
+    margin-bottom: 30vh;
+  }
+}
 @media only screen and (max-width: 470px) {
+  .contact-box-1, .contact-box-2{
+    height: 48vh;
+    width: 31vw;
+  }
   .text {
     padding-right: 9vw;
     font-size: 2vh;
@@ -454,5 +491,13 @@ html {
   }
   .text-pink{
     font-size: 14.1px;
+  }
+  .portfolio-card{
+    margin-bottom: 20vh;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .contact-box-1, .contact-box-2{
+    height: 52vh;
   }
 }

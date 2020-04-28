@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Footer from "../Footer";
-// import "../styles/Allstyles.css"
 
 class About extends Component {
   render() {
@@ -44,18 +43,18 @@ class About extends Component {
                 <h2 className="tech-skills">Technical Skills</h2>
              
                 <div className="text2">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Materialize</li>
-                  <li>Bootstrap</li>
-                  <li>Github</li>
-                  <li>Heroku</li>
-                  <li>API's</li>
-                  <li>React</li>
-                  <li>JavaScript</li>
-                  <li>Media Queries</li>
-                  <li>Bash Navigation</li>
-                  <li>PWA Applications</li>
+                  HTML,
+                  CSS,
+                  Materialize,
+                  Bootstrap,
+                  Github,
+                  Heroku,
+                  API's,
+                  React,
+                  JavaScript,
+                  Media Queries,
+                  Bash Navigation,
+                  and PWA Applications.
                 </div>
               </div>
             </div>

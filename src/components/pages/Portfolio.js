@@ -86,7 +86,7 @@ class Portfolio extends Component {
                     <div className="col-4"></div>
                   </div>
 
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="col-4"></div>
                     <div className="col-4">
                       <p
@@ -97,6 +97,15 @@ class Portfolio extends Component {
                       </p>
                     </div>
                     <div className="col-4"></div>
+                  </div> */}
+
+                  <div className="row card-content">
+                    <div>
+                      <p className="text-pink">
+                      Muckleshoot Housing Authority website to allow users to access files, information, and be able to see contact information. 
+
+                      </p>
+                    </div>
                   </div>
 
                   <div className=" text-center card-desc deschide2">
@@ -139,7 +148,7 @@ class Portfolio extends Component {
                     <div className="col-4"></div>
                   </div>
 
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="col-4"></div>
                     <div className="col-4">
                       <p
@@ -150,6 +159,15 @@ class Portfolio extends Component {
                       </p>
                     </div>
                     <div className="col-4"></div>
+                  </div> */}
+
+                  <div className="row card-content">
+                    <div>
+                      <p className="text-pink">
+                      Website where users can login and share there top three recommendations on a variety of products and experiences. 
+
+                      </p>
+                    </div>
                   </div>
 
                   <div className=" text-center card-desc deschide3">
@@ -192,7 +210,7 @@ class Portfolio extends Component {
                     <div className="col-4"></div>
                   </div>
 
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="col-4"></div>
                     <div className="col-4">
                       <p
@@ -203,7 +221,17 @@ class Portfolio extends Component {
                       </p>
                     </div>
                     <div className="col-4"></div>
+                  </div> */}
+
+                  <div className="row card-content">
+                    <div>
+                      <p className="text-pink">
+                      This website allows the parent to be able to keep track of the kid’s electronic device usage and their allowance.
+
+                      </p>
+                    </div>
                   </div>
+                  
 
                   <div className=" text-center card-desc deschide1">
                     <div className="desc-close" onClick={this.description1}>

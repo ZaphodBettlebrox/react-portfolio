@@ -11,6 +11,18 @@ class Contact extends Component {
           </div>
           <div className="row">
             <div className="contactbody">
+              <div className="row">
+                <div className="col-2"></div>
+                <div className="col-4">
+                <div className="contact-box-1"></div>
+
+                </div>
+                <div className="col-4">
+                <div className="contact-box-2"></div>
+
+                </div>
+                <div className="col-2"></div>
+              </div>
               <div className="row text-pink text-center contactrow">
                 <div className="col-2"></div>
                 <div className="col-4">
@@ -23,7 +35,7 @@ class Contact extends Component {
                     rel="noopener noreferrer"
                     className="text-pink text-link"
                   >
-                    ZaphodBettlebrox
+                    Zaphod Bettlebrox
                   </a>
                 </div>
                 <div className="col-2"></div>
@@ -71,7 +83,11 @@ class Contact extends Component {
                   <p className="margin0">Email:</p>
                 </div>
                 <div className="col-4">
-                  <p className="margin0">Gamer9310@gmail.com</p>
+                  <p className="margin0">Gamer9310
+                  </p>
+                  <p className="margin0">
+                  @gmail.com</p>
+
                 </div>
                 <div className="col-2"></div>
               </div>
