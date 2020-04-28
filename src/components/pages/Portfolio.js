@@ -185,7 +185,7 @@ class Portfolio extends Component {
                     <div className="col-4"></div>
                     <div className="col-4 padding0">
                       <a
-                        href="https://github.com/ajrsabet/Screen_Time_Tracker"
+                        href="https://github.com/ZaphodBettlebrox/Screen_Time_Tracker"
                         target="_blank"
                         rel="noopener noreferrer"
                         className=" text-center card-button"
